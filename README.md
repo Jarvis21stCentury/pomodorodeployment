@@ -8,13 +8,11 @@ It is an honor, a sign of respect. Only a planet considered worthy will be grant
 You have been given a list of planets that have finally been deemed worthy. This is your first mission. Good luck.
 
 <h3>Pomodoro:</h3>
-What is Pomodoro?<br>
 The pomodoro technique is a popular time management method that enhances productivity and prevents burnout by separating work into timed intervals with short breaks in between.
 It was invented in the late 1980s by a procrastination-prone Italian university student named Francesco Cirillo.
 Fun fact: The technique's name can be attributed to Cirillo's tomato-shaped kitchen timer, with Pomodoro being the Italian word for tomato.
 
-<br>How can I use the Pomodoro technique?<br>
-The structure of the Pomodoro technique is as follows:
+<br>The structure of the Pomodoro technique is as follows:
 1. Choose a simple task or part of a larger one to focus on.
 2. Study Session (25 minutes)
 3. Short Break (5 minutes)
@@ -31,6 +29,7 @@ Nova AI is a trained assistant that is specifically designed for studying and he
 Flashcards function using CohereAI and after getting prompted by the user for a subject, creates flashcards in the JSON format which are later turned into flashcards.
 
 <h3>Music:</h3>
+The format of the audio player is simple. Click "⏮" to go to the last song, "⏭" to go to the next one, and ►⏸ to play the selected choice.
 
 <h3>Shop:</h3>
 The shop is an app where users can purchase themes and colors to customize the experience and planets to continue the storyline.
