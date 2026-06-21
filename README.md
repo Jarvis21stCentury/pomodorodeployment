@@ -1,4 +1,4 @@
-FocusOS is a browser-based operating system utilizing the Pomodoro technique to boost efficiency in work. There are eight apps available, including Pomodoro (timer), Session Log, Nova (AI chat), Flashcards, Music, Shop, and Achievements. The overall theme of the project is space-based, with a starry background, planets, shooting stars, and UFOs.
+FocusOS is a browser-based operating system with the primary purpose of encouraging efficient work using the Pomodoro technique. With a theme inspired by outer-space, it has an engaging extraterrestrial storyline.  From AI study tools to an audio player, there are eight apps available.
 
 <h3>Storyline:</h3>
 You are a member of an extraterrestrial civilization, exploring the galaxy one study session at a time. 
