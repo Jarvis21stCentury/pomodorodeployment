@@ -1,7 +1,11 @@
 FocusOS is a browser-based operating system utilizing the Pomodoro technique to boost efficiency in work. There are eight apps available, including Pomodoro (timer), Session Log, Nova (AI chat), Flashcards, Music, Shop, and Achievements. The overall theme of the project is space-based, with a starry background, planets, shooting stars, and UFOs.
 
 <h3>Storyline:</h3>
-Y'all are aliens blow up the planet
+You are a member of an extraterrestrial civilization, exploring the galaxy one study session at a time. 
+Destroying planets is a rite of passage in your culture. 
+It is not seen as cruel, nor a punishment for what they could not control.
+It is an honor, a sign of respect. Only a planet considered worthy will be granted destruction.
+You have been given a list of planets that have finally been deemed worthy. This is your first mission. Good luck.
 
 <h3>Pomodoro:</h3>
 What is Pomodoro?<br>
