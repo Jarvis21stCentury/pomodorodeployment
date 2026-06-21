@@ -1,0 +1,2 @@
+[tool.vercel]
+entrypoint = "gitcode.server:app"
