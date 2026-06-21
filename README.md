@@ -1,14 +1,34 @@
-# FocusOS — Pomodoro Study App
+FocusOS is a browser-based operating system utilizing the Pomodoro technique to boost efficiency in work. There are eight apps available, including Pomodoro (timer), Session Log, Nova (AI chat), Flashcards, Music, Shop, and Achievements. The overall theme of the project is space-based, with a starry background, planets, shooting stars, and UFOs.
 
-A retro OS-themed Pomodoro timer with AI study assistant, flashcards, music player, and a 3D space progress system.
+<h3>Storyline:</h3>
+Y'all are aliens blow up the planet
 
-## Setup
+<h3>Pomodoro:</h3>
+What is Pomodoro?<br>
+The pomodoro technique is a popular time management method that enhances productivity and prevents burnout by separating work into timed intervals with short breaks in between.
+It was invented in the late 1980s by a procrastination-prone Italian university student named Francesco Cirillo.
+Fun fact: The technique's name can be attributed to Cirillo's tomato-shaped kitchen timer, with Pomodoro being the Italian word for tomato.
 
-```bash
-pip install -r requirements.txt
-export OPENAI_API_KEY=your-key-here   # optional, needed for Nova AI and Flashcards
-cd gitcode
-python server.py
-```
+<br>How can I use the Pomodoro technique?<br>
+The structure of the Pomodoro technique is as follows:
+1. Choose a simple task or part of a larger one to focus on.
+2. Study Session (25 minutes)
+3. Short Break (5 minutes)
+4. Repeat previous two steps three more times
+5. After completing four "Pomodoros" (Study Sessions), take a Long Break (15 minutes)
 
-Open http://localhost:8000
+<h3>Session Log:</h3>
+After using the Pomodoro timer, the Session Log app will have a record of when each session was completed, how long it took, and the task goal.
+
+<h3>Nova AI:</h3>
+Nova AI is a trained assistant that is specifically designed for studying and helping students understand concepts. It uses the OpenAI API to accomplish this purpose.
+
+<h3>Flashcards:</h3>
+Flashcards function using CohereAI and after getting prompted by the user for a subject, creates flashcards in the JSON format which are later turned into flashcards.
+
+<h3>Music:</h3>
+
+<h3>Shop:</h3>
+The shop is an app where users can purchase themes and colors to customize the experience and planets to continue the storyline.
+
+<h3>Achievements:</h3>
