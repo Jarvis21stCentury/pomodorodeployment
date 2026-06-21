@@ -193,10 +193,10 @@ function completePhase(){
   beep();
   if (mode == "focus"){
     completedFocusSessions++;
-    sessionLog.unshift({ type: `Focus`, time: new Date() });
+    sessionLog.unshift({ type: `Focus`, time: new Date(), details: lastDetails});
     mode = (completedFocusSessions % 4 == 0) ? "long" : "short";
   } else {
-    sessionLog.unshift({ type: mode == "long" ? "Long Break" : "Short Break", time: new Date() });
+    sessionLog.unshift({ type: mode == "long" ? "Long Break" : "Short Break", time: new Date(), details: lastDetails});
     mode = "focus";
   }
   remaining = durations[mode];
@@ -251,7 +251,7 @@ function applySettings(){
   durations.focus = Math.max(1, parseInt(document.getElementById(`set-focus`).value || 25)) * 60;
   durations.short = Math.max(1, parseInt(document.getElementById(`set-short`).value || 5)) * 60;
   durations.long  = Math.max(1, parseInt(document.getElementById(`set-long`).value  || 15)) * 60;
-  let lastDetails = document.getElementById(`session-details`);
+  lastDetails = document.getElementById(`session-details`).value;
   if (!running){ remaining = durations[mode]; renderTimer(); }
 }
 
@@ -271,14 +271,23 @@ function renderLog(){
     const time = entry.time.toLocaleTimeString([], {hour:`2-digit`, minute:`2-digit`});
     const cls = entry.type.includes(`Focus`) ? `lt-focus` : `lt-break`;
     row.innerHTML = `<span class="log-type ${cls}">${entry.type}</span><span class="log-time">${time}</span>`;
+    if (entry.details){
+      const detailsEl = document.createElement('div');
+      detailsEl.className = 'log-details';
+      detailsEl.textContent = "Session details: " + entry.details;
+      row.appendChild(detailsEl);
+    }
     list.appendChild(row);
   }
+  lastDetails = "";
 }
 
-const songs = [ 
+const songs = [
   {song: "Falling Behind", artist: "Luffy", elem: document.getElementById(`falling-behind`)},
+  {song: "Garden", artist: "Fujii Kaze", elem: document.getElementById(`garden`)},
+  {song: "Cornfield Chase", artist: "Hans Zimmer", elem: document.getElementById(`interstellar`)},
   {song: "From the Start", artist: "Luffy", elem: document.getElementById(`from-the-start`)},
-  {song: "Interstellar", artist: "Hans Zimmer", elem: document.getElementById(`interstellar`)},
+  {song: "Ditto", artist: "NewJeans", elem: document.getElementById(`ditto`)},
 ]
 let currentIndex = 0;
 function playSong(id, toggle){
