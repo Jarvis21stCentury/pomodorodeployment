@@ -19,6 +19,9 @@ Fun fact: The technique's name can be attributed to Cirillo's tomato-shaped kitc
 4. Repeat previous two steps three more times
 5. After completing four "Pomodoros" (Study Sessions), take a Long Break (15 minutes)
 
+<h3>The Spacetime Journey</h3>
+Every study session with the Pomodoro Technique generates Credits, allowing you and your ship to travel deeper into the galaxy and explore new planets. As you earn more Credits, you unlock the ability to journey to new worlds. When it is time to move on, you board your UFO and depart the planet. As you fly farther away, the planet explodes, symbolizing the milestone you have achieved.
+
 <h3>Session Log:</h3>
 After using the Pomodoro timer, the Session Log app will have a record of when each session was completed, how long it took, and the task goal.
 
